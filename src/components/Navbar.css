@@ -1,0 +1,80 @@
+.nav_main{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    
+   
+  }
+  
+  .navbar-logo img {
+    height: 65px;
+  }
+  
+  
+  .navbar-links a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    padding-left: 30px;
+    font-weight: 700;
+
+  }
+  
+  .new-badge {
+    color: red;
+    font-weight: 500;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+    background-color:#f6f6f6;
+    padding: 4px 10px;
+    border-radius: 4px;
+  }
+  
+  .navbar-search input {
+    padding: 7px 10px;
+    /* border: 1px solid #ccc; */
+    border: none;
+    outline: none;
+    width: 450px;
+    background-color:#f6f6f6;
+    
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+    .navbar-icons i {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .icon{
+    cursor: pointer;
+  }
+ .icon p{
+  font-weight: bold;
+  font-size: 10px;
+ }
+
+ @media screen and (max-width: 600px) {
+  .navbar-links{
+    display: none;
+  }
+  .navbar-search{
+    display: none;
+  }
+}
